@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workaholic.RTFEditor", "Workaholic.RTFEditor\Workaholic.RTFEditor.csproj", "{4A366758-F55D-4D40-A2E4-13507CCE3A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workaholic.RTFEditor.Test", "Workaholic.RTFEditor.Test\Workaholic.RTFEditor.Test.csproj", "{410E6E53-B267-436C-ADBF-434C6DB370A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A366758-F55D-4D40-A2E4-13507CCE3A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A366758-F55D-4D40-A2E4-13507CCE3A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A366758-F55D-4D40-A2E4-13507CCE3A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A366758-F55D-4D40-A2E4-13507CCE3A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410E6E53-B267-436C-ADBF-434C6DB370A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410E6E53-B267-436C-ADBF-434C6DB370A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410E6E53-B267-436C-ADBF-434C6DB370A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410E6E53-B267-436C-ADBF-434C6DB370A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4E13B24-89AC-4280-9289-D96CF10C7EAC}
+	EndGlobalSection
+EndGlobal
