@@ -165,17 +165,17 @@ namespace Workaholic.RTFEditor
             // 
             // copyToolStripMenuItem
             // 
-            this.copyToolStripMenuItem.Image = global::Workaholic.RTFEditor.Properties.Resources.copy;
-            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            resources.ApplyResources(this.copyToolStripMenuItem, "copyToolStripMenuItem");
-            this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
+            //this.copyToolStripMenuItem.Image = global::Workaholic.RTFEditor.Properties.Resources.copy;
+            //this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
+            //resources.ApplyResources(this.copyToolStripMenuItem, "copyToolStripMenuItem");
+            //this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
             // pasteToolStripMenuItem
             // 
-            this.pasteToolStripMenuItem.Image = global::Workaholic.RTFEditor.Properties.Resources.paste;
-            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            resources.ApplyResources(this.pasteToolStripMenuItem, "pasteToolStripMenuItem");
-            this.pasteToolStripMenuItem.Click += new System.EventHandler(this.pasteToolStripMenuItem_Click);
+            //this.pasteToolStripMenuItem.Image = global::Workaholic.RTFEditor.Properties.Resources.paste;
+            //this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
+            //resources.ApplyResources(this.pasteToolStripMenuItem, "pasteToolStripMenuItem");
+            //this.pasteToolStripMenuItem.Click += new System.EventHandler(this.pasteToolStripMenuItem_Click);
             // 
             // formatToolStripMenuItem
             // 
