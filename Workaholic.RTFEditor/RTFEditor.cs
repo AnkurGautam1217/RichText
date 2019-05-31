@@ -116,9 +116,7 @@ namespace Workaholic.RTFEditor
         {
             get
             {
-                if (this.newToolStripMenuItem.Visible)
-                { return true; }
-                else { return false; }
+                 return false; 
             }
             set
             {
@@ -127,10 +125,10 @@ namespace Workaholic.RTFEditor
                 //this.tsSave.Visible = value;
                 //this.tsFileSeparator.Visible = value;
 
-                this.newToolStripMenuItem.Visible = value;
-                this.openToolStripMenuItem.Visible = value;
-                this.saveToolStripMenuItem.Visible = value;
-                this.fileToolStripMenuItem.Visible = value;
+                //this.newToolStripMenuItem.Visible = value;
+                //this.openToolStripMenuItem.Visible = value;
+                //this.saveToolStripMenuItem.Visible = value;
+                //this.fileToolStripMenuItem.Visible = value;
             }
         }
 
@@ -143,14 +141,12 @@ namespace Workaholic.RTFEditor
         {
             get
             {
-                if ( this.newToolStripMenuItem.Visible)
-                { return true; }
-                else { return false; }
+                return false;
             }
             set
             {
                 //this.tsNew.Visible = value;
-                this.newToolStripMenuItem.Visible = value;
+               // this.newToolStripMenuItem.Visible = value;
             }
         }
 
@@ -163,14 +159,12 @@ namespace Workaholic.RTFEditor
         {
             get
             {
-                if (this.openToolStripMenuItem.Visible)
-                { return true; }
-                else { return false; }
+                return false;
             }
             set
             {
                // this.tsOpen.Visible = value;
-                this.openToolStripMenuItem.Visible = value;
+               // this.openToolStripMenuItem.Visible = value;
             }
         }
 
@@ -183,14 +177,12 @@ namespace Workaholic.RTFEditor
         {
             get
             {
-                if (this.saveToolStripMenuItem.Visible)
-                { return true; }
-                else { return false; }
+                return false;
             }
             set
             {
                // this.tsSave.Visible = value;
-                this.saveToolStripMenuItem.Visible = value;
+               // this.saveToolStripMenuItem.Visible = value;
             }
         }
 
@@ -259,8 +251,8 @@ namespace Workaholic.RTFEditor
         [Description("The menu of the editor is visible (true) or not (false).")]
         public Boolean MenuVisible
         {
-            get { return this.ms.Visible; }
-            set { this.ms.Visible = value; }
+            get { return false; }
+            set { }
         }
 
         #endregion Input/output variables and properties
@@ -327,13 +319,13 @@ namespace Workaholic.RTFEditor
             if (this.rtb.SelectionFont != null)
             {
                 //this.tsBold.Checked = this.rtb.SelectionFont.Bold;
-                this.boldToolStripMenuItem.Checked = this.rtb.SelectionFont.Bold;
+              //  this.boldToolStripMenuItem.Checked = this.rtb.SelectionFont.Bold;
                // this.tsItalic.Checked = this.rtb.SelectionFont.Italic;
-                this.italicToolStripMenuItem.Checked = this.rtb.SelectionFont.Italic;
-               // this.tsUnderline.Checked = this.rtb.SelectionFont.Underline;
-                this.underlineToolStripMenuItem.Checked = this.rtb.SelectionFont.Underline;
-               // this.tsStrikeout.Checked = this.rtb.SelectionFont.Strikeout;
-                this.strikeoutToolStripMenuItem.Checked = this.rtb.SelectionFont.Strikeout;
+               // this.italicToolStripMenuItem.Checked = this.rtb.SelectionFont.Italic;
+               //// this.tsUnderline.Checked = this.rtb.SelectionFont.Underline;
+               // this.underlineToolStripMenuItem.Checked = this.rtb.SelectionFont.Underline;
+               //// this.tsStrikeout.Checked = this.rtb.SelectionFont.Strikeout;
+               // this.strikeoutToolStripMenuItem.Checked = this.rtb.SelectionFont.Strikeout;
 
             //    this.tsFontType.Text = this.rtb.SelectionFont.Name;
              //   this.tsFontType.ToolTipText = this.rtb.SelectionFont.Name;
@@ -343,11 +335,11 @@ namespace Workaholic.RTFEditor
 
             // Alignment
            // this.tsRight.Checked = (this.rtb.SelectionAlignment == HorizontalAlignment.Right);
-            this.rightToolStripMenuItem.Checked = (this.rtb.SelectionAlignment == HorizontalAlignment.Right);
-         //   this.tsLeft.Checked = (this.rtb.SelectionAlignment == HorizontalAlignment.Left);
-            this.leftToolStripMenuItem.Checked = (this.rtb.SelectionAlignment == HorizontalAlignment.Left);
-         //   this.tsCenter.Checked = (this.rtb.SelectionAlignment == HorizontalAlignment.Center);
-            this.centerToolStripMenuItem.Checked = (this.rtb.SelectionAlignment == HorizontalAlignment.Center);
+         //   this.rightToolStripMenuItem.Checked = (this.rtb.SelectionAlignment == HorizontalAlignment.Right);
+         ////   this.tsLeft.Checked = (this.rtb.SelectionAlignment == HorizontalAlignment.Left);
+         //   this.leftToolStripMenuItem.Checked = (this.rtb.SelectionAlignment == HorizontalAlignment.Left);
+         ////   this.tsCenter.Checked = (this.rtb.SelectionAlignment == HorizontalAlignment.Center);
+         //   this.centerToolStripMenuItem.Checked = (this.rtb.SelectionAlignment == HorizontalAlignment.Center);
 
             // Font color and background color
             //this.tsFontColor.BackColor = this.rtb.SelectionColor;

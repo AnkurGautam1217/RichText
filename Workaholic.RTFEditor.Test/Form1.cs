@@ -10,6 +10,7 @@ namespace Workaholic.RTFEditor.Test
 {
     public partial class Form1 : Form
     {
+        static string textBoxText;
         public Form1()
         {
             InitializeComponent();
@@ -58,8 +59,44 @@ namespace Workaholic.RTFEditor.Test
                     }
                 }
             }
+            rtfEditor2.DocumentRtf = rtfEditor1.DocumentRtf;
+
+
 
             MessageBox.Show(rtfEditor1.DocumentText);
+        }
+
+        private void rtfEditor1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control && e.KeyCode == Keys.V)
+            {
+                rtfEditor1.DocumentRtf += (string)Clipboard.GetData("Text");
+                e.Handled = true;
+            }
+        }
+
+        private void rtfEditor1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+
+        }
+
+        private void rtfEditor1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void rtfEditor1_KeyUp(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control && e.KeyCode == Keys.V)
+            {
+                rtfEditor1.DocumentRtf += (string)Clipboard.GetData("Text");
+                e.Handled = true;
+            }
         }
     }
 }
